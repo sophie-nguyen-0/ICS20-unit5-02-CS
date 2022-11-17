@@ -8,7 +8,7 @@ class Program
 
         System.Random random = new System.Random();
 
-        Console.Write("if you want positive dice, type 1: ");
+        Console.Write("if you want positive dice, type 1, if you want a negative, type 2: ");
         dice = Convert.ToInt32(Console.ReadLine());
 
         if (dice == 1)
