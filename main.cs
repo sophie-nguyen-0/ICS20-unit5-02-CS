@@ -17,15 +17,15 @@ class Program
 
             num = random.Next(6);
 
-             Console.WriteLine("your number is"+num+".");
+             Console.WriteLine("your number is" + num + ".");
         }
-        else 
+        else
         {
             int num;
 
             num = random.Next(-6, -1);
 
-             Console.WriteLine("your number is"+num+".");
+             Console.WriteLine("your number is" + num + ".");
         }
 
         Console.WriteLine("\nDone.");
