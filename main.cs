@@ -17,7 +17,7 @@ class Program
 
             num = random.Next(6);
 
-             Console.WriteLine("your number is" + num + ".");
+             Console.WriteLine("your number is " + num + ".");
         }
         else
         {
@@ -25,7 +25,7 @@ class Program
 
             num = random.Next(-6, -1);
 
-             Console.WriteLine("your number is" + num + ".");
+             Console.WriteLine("your number is " + num + ".");
         }
 
         Console.WriteLine("\nDone.");
